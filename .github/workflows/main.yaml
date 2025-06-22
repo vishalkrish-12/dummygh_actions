@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Email 23ds2000044@ds.study.iitm.ac.in: Commit changes
+      - name: 23ds2000044@ds.study.iitm.ac.in
         run: |
           # append UTC timestamp to a log file (creates it on first run)
           LOG_FILE=".github/commit-log.txt"
