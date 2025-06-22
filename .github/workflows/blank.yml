@@ -1,5 +1,5 @@
 name: 23ds2000044@ds.study.iitm.ac.in
-'on':
+"on":
   schedule:
     - cron: 5 0 * * *
   workflow_dispatch: null
@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      - name: 'Email 23ds2000044@ds.study.iitm.ac.in: Commit changes'
+      - name: "Email 23ds2000044@ds.study.iitm.ac.in: Commit changes"
         run: >
           # append UTC timestamp to a log file (creates it on first run)
 
